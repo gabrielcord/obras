@@ -1,0 +1,14 @@
+---
+tcc_obras:
+  outputs:
+    tcc:
+      type: bigquery
+      project: amiable-mix-365020
+      location: southamerica-east1
+      dataset: tcc
+      method: service-account
+      keyfile: ../../sa.json
+      priority: interactive
+      threads: 1
+      job_execution_timeout_seconds: 300
+  target: tcc

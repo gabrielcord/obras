@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: raw
+    database: amiable-mix-365020
+    schema: tcc_raw
+    tables:
+      - name: obras_2008
+      - name: obras_2009
+      - name: obras_2010
+      - name: obras_2011
+      - name: obras_2012
+      - name: obras_2013
+      - name: obras_2014
+      - name: obras_2015
+      - name: obras_2016
+      - name: obras_2017
+      - name: obras_2018
+      - name: obras_2019
+      - name: obras_2020
+      - name: obras_2021
